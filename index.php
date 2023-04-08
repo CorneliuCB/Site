@@ -104,7 +104,7 @@
 
         // Add click event listener to open PHP script in new window
         circle.addEventListener('click', function() {
-          window.open('/pages/logIn.php');
+          window.open('/pages/login.php');
         });
       </script>
 
