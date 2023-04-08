@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <?php
+  $_SESSION['islogged'] = false;
+  ?>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -50,7 +53,7 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link active" href="#header">Acasă</a></li>
-        <li><a class="nav-link" href="#about">Info</a></li>
+        <li><a class="nav-link" href="#about">Informații</a></li>
         <li><a class="nav-link" href="#resume">Resume</a></li>
         <li><a class="nav-link" href="#services">Services</a></li>
         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
@@ -93,6 +96,13 @@
   <!-- ======= About Me ======= -->
   <?php
   require_once "pages/about.php";
+  ?>
+  <?php
+  if ($_SESSION['islogged']) {
+    // Display content for logged-in users
+  } else {
+    // Display content for non-logged-in users
+  }
   ?>
 
 </section><!-- End About Section -->
