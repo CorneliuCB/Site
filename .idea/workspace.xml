@@ -5,10 +5,217 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="226e4a76-97ab-4d0f-af4e-c30ce46bdde6" name="Changes" comment="&quot;a&quot;">
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/21880c0ffe15753a53f8402e9f64e1077e071510/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/2af427b2894d1e78c5806e231aa35d00838a84e0/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/extend.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/fonts.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/global.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/minxi.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/643489b018602f15119d8f44aeb7fc79468873a9/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/643489b018602f15119d8f44aeb7fc79468873a9/responsive.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/extend.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/fonts.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/global.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/minxi.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/abd3f6d1a9e5fdc8033c1d3baf5338152913b29e/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/db153c5e6986ea2f5f0c336e756475dbd3289ecf/extend.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/db153c5e6986ea2f5f0c336e756475dbd3289ecf/fonts.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/db153c5e6986ea2f5f0c336e756475dbd3289ecf/global.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/db153c5e6986ea2f5f0c336e756475dbd3289ecf/minxi.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/db153c5e6986ea2f5f0c336e756475dbd3289ecf/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/f49285f1317a1cafa93ab4f5de346f92bbc40d58/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/f49285f1317a1cafa93ab4f5de346f92bbc40d58/responsive.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/fb6b0c202f4997afcfa31a634b7dfb6d0106b6e3/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/.sass-cache/fb6b0c202f4997afcfa31a634b7dfb6d0106b6e3/responsive.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/montserrat-v12-latin-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/montserrat-v12-latin-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/montserrat-v12-latin-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/montserrat-v12-latin-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/fonts/montserrat/montserrat-v12-latin-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/images/signup-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/common/extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/common/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/common/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/common/minxi.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/common/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/layouts/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/layouts/responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_bn_BD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_bn_BD.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_es_AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_es_AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_es_PE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_es_PE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_hy_AM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_hy_AM.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_my.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_pt_BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_pt_PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_si.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sr_lat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sr_lat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_tj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_tj.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_ur.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/messages_zh_TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_es_CL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery-validation/dist/localization/methods_pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-page/vendor/jquery/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/login-page/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/login-page/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/images/bg-registration-form-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/images/registration-form-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login-page/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +237,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/vladc/OneDrive/Рабочий стол/Hakum-site/assets/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vladc/OneDrive/Рабочий стол/Hakum-site/assets/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vladc\OneDrive\Рабочий стол\Hakum-site\assets\img" />
@@ -62,7 +269,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680942284521</updated>
       <workItem from="1680942286228" duration="5431000" />
-      <workItem from="1680967882524" duration="11722000" />
+      <workItem from="1680967882524" duration="14562000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;site created&quot;">
       <created>1680949482592</created>

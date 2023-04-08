@@ -78,7 +78,7 @@
 
       <script>
         document.getElementById("login-container").addEventListener("click", function() {
-          window.location.href = "login-page/index.html";
+          window.location.href = "login-page/";
         });
       </script>
 
