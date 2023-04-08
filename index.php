@@ -70,12 +70,13 @@
       <a href="https://www.linkedin.com/in/vlad-corcodel-461a2a250/" class="instagram" target="_blank">
         <i class="bi bi-linkedin"></i>
       </a>
-      <div style="position:relative; top:-484px; left: 1220px;">
+      <div style="position: fixed; top: 20px; right: 20px;">
         <a href="login-page/index.html" class="login" target="_blank">
           <img src="assets/img/login.jpg" alt="Login" class="bi"
                style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;"/>
         </a>
       </div>
+
 
     </div>
 
