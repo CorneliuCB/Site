@@ -70,43 +70,9 @@
       <a href="https://www.linkedin.com/in/vlad-corcodel-461a2a250/" class="instagram" target="_blank">
         <i class="bi bi-linkedin"></i>
       </a>
-
-      <style>
-          .circle {
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              overflow: hidden;
-              cursor: pointer;
-          }
-
-          .circle img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-          }
-      </style>
-      </head>
-      <body>
-
-      <div id="imageCircle" class="circle"></div>
-
-      <script>
-        // Create circular div element
-        var circle = document.getElementById('imageCircle');
-
-        // Create image element
-        var image = new Image();
-        image.src = '/assets/img/login.jpg';
-
-        // Add image to circular div element
-        circle.appendChild(image);
-
-        // Add click event listener to open PHP script in new window
-        circle.addEventListener('click', function() {
-          window.open('/pages/login.php');
-        });
-      </script>
+      <a href="login-page/index.html" class="instagram" target="_blank">
+        <i class="bi bi-linkedin"></i>
+      </a>
 
     </div>
 
