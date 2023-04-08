@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226e4a76-97ab-4d0f-af4e-c30ce46bdde6" name="Changes" comment="&quot;a&quot;" />
+    <list default="true" id="226e4a76-97ab-4d0f-af4e-c30ce46bdde6" name="Changes" comment="&quot;a&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/bg.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680942284521</updated>
       <workItem from="1680942286228" duration="5431000" />
-      <workItem from="1680967882524" duration="7856000" />
+      <workItem from="1680967882524" duration="9308000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;site created&quot;">
       <created>1680949482592</created>
