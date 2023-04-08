@@ -70,6 +70,10 @@
       <a href="https://www.linkedin.com/in/vlad-corcodel-461a2a250/" class="instagram" target="_blank">
         <i class="bi bi-linkedin"></i>
       </a>
+      <a href="login-page/index.html" class="instagram" target="_blank">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
     </div>
 
   </div>
