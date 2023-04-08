@@ -1,10 +1,12 @@
+<?php
+require_once "check-login/checkLogin.php";
+var_dump(checkLogin::getIsLogged());
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <?php
-  $_SESSION['islogged'] = false;
-  ?>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -96,13 +98,6 @@
   <!-- ======= About Me ======= -->
   <?php
   require_once "pages/about.php";
-  ?>
-  <?php
-  if ($_SESSION['islogged']) {
-    // Display content for logged-in users
-  } else {
-    // Display content for non-logged-in users
-  }
   ?>
 
 </section><!-- End About Section -->
