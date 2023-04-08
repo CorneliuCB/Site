@@ -43,7 +43,7 @@
     <h2><span>Alegerea ta, Viitorul nostru</span></h2>
 
     <div class="Timer">
-    <p id="demo" class="demo"></p>
+      <p id="demo" class="demo"></p>
 
     </div>
 
@@ -70,9 +70,12 @@
       <a href="https://www.linkedin.com/in/vlad-corcodel-461a2a250/" class="instagram" target="_blank">
         <i class="bi bi-linkedin"></i>
       </a>
-      <a href="login-page/index.html" class="instagram" target="_blank">
-        <i class="bi bi-linkedin"></i>
-      </a>
+      <div style="position:relative; top:-484px; left: 1220px;">
+        <a href="login-page/index.html" class="login" target="_blank">
+          <img src="assets/img/login.jpg" alt="Login" class="bi"
+               style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;"/>
+        </a>
+      </div>
 
     </div>
 
