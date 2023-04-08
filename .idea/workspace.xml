@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="226e4a76-97ab-4d0f-af4e-c30ce46bdde6" name="Changes" comment="&quot;a&quot;">
-      <change afterPath="$PROJECT_DIR$/pages/score.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/logIn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/score.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/score.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680942284521</updated>
       <workItem from="1680942286228" duration="5431000" />
-      <workItem from="1680967882524" duration="1742000" />
+      <workItem from="1680967882524" duration="6184000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;site created&quot;">
       <created>1680949482592</created>
