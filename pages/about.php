@@ -1,8 +1,8 @@
 <div class="about-me container">
 
   <div class="section-title">
-    <h2>About</h2>
-    <p>Learn more about me</p>
+    <h2>Info</h2>
+    <p class="titluinfo">Află mai multe despre candidați</p>
   </div>
 
   <div class="row">
@@ -43,6 +43,7 @@
 </div><!-- End About Me -->
 
 <!-- ======= Counts ======= -->
+<!--
 <div class="counts container">
 
   <div class="row">
@@ -81,9 +82,10 @@
 
   </div>
 
-</div><!-- End Counts -->
+</div> End Counts -->
 
 <!-- ======= Skills  ======= -->
+<!--
 <div class="skills container">
 
   <div class="section-title">
@@ -144,7 +146,8 @@
 
   </div>
 
-</div><!-- End Skills -->
+</div> End Skills 
+-->
 
 <!-- ======= Interests ======= -->
 <div class="interests container">
@@ -234,7 +237,7 @@
 <div class="testimonials container">
 
   <div class="section-title">
-    <h2>Testimonials</h2>
+    <h2>Informație adăugată de utimizatori</h2>
   </div>
 
   <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
