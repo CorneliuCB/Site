@@ -1,7 +1,7 @@
 <?php
-require_once "check-login/checkLogin.php";
-session_start(); // Pornirea sesiunii
-var_dump($_SESSION['isLogged']); // Accesarea valorii $isLogged din sesiune
+session_start();
+//var_dump($_SESSION['isLogged']);
+unset($_SESSION['isLogged'])
 ?>
 
 
@@ -79,12 +79,13 @@ var_dump($_SESSION['isLogged']); // Accesarea valorii $isLogged din sesiune
       </a>
       <div id="login-container" style="position: fixed; top: 20px; right: 20px;">
         <a href="#" class="login">
-          <img src="assets/img/login.jpg" alt="Login" class="bi" style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;"/>
+          <img src="assets/img/login.jpg" alt="Login" class="bi"
+               style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;"/>
         </a>
       </div>
 
       <script>
-        document.getElementById("login-container").addEventListener("click", function() {
+        document.getElementById("login-container").addEventListener("click", function () {
           window.location.href = "login-page/";
         });
       </script>

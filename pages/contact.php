@@ -19,7 +19,6 @@
         <i class="bx bx-share-alt"></i>
         <h3>Profiluri sociale</h3>
         <div class="social-links">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
@@ -39,12 +38,12 @@
       <div class="info-box">
         <i class="bx bx-phone-call"></i>
         <h3>Sună-ne</h3>
-        <p>+373 XXXXXXXX</p>
+        <p>+373 `XXXXXXXX`</p>
       </div>
     </div>
   </div>
 
-  <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+  <form action="#" method="post" role="form" class="php-email-form mt-4">
     <div class="row">
       <div class="col-md-6 form-group">
         <input type="text" name="name" class="form-control" id="name" placeholder="Numele" required>
