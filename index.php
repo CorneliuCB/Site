@@ -74,10 +74,11 @@ unset($_SESSION['isLogged'])
       <ul>
         <li><a class="nav-link active" href="#header">Acasă</a></li>
         <li><a class="nav-link" href="#about">Informații</a></li>
-        <li><a class="nav-link" href="#resume">Contact</a></li>
         <li><a class="nav-link" href="#services">Asistent virtual</a></li>
         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
         <li><a class="nav-link" href="#contact">Tombola</a></li>
+        <li><a class="nav-link" href="#posts">Posturi</a></li>
+        <li><a class="nav-link" href="#resume">Contact</a></li>
         <li><a class="nav-link" href="#score">Puncte: <?php echo $points; ?></a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -121,12 +122,7 @@ unset($_SESSION['isLogged'])
 
 </section><!-- End About Section -->
 
-<!-- ======= Resume Section ======= -->
-<section id="resume" class="resume">
-  <?php
-  require_once "pages/contact.php";
-  ?>
-</section><!-- End Resume Section -->
+
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">
@@ -138,6 +134,7 @@ unset($_SESSION['isLogged'])
 <!-- ======= Portfolio Section ======= -->
 <section id="portfolio" class="portfolio">
   <?php
+  require_once "pages/news.php";
   require_once "pages/portfolio.php";
   ?>
 </section><!-- End Portfolio Section -->
@@ -148,6 +145,20 @@ unset($_SESSION['isLogged'])
   require_once "pages/resume.php";
   ?>
 </section><!-- End Contact Section -->
+
+<!-- ======= Resume Section ======= -->
+<section id="posts" class="posts">
+  <?php
+  require_once "pages/posts.php";
+  ?>
+</section><!-- End Resume Section -->
+
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume">
+  <?php
+  require_once "pages/contact.php";
+  ?>
+</section><!-- End Resume Section -->
 
 <!-- ======= Score ======= -->
 <section id="score" class="score">
