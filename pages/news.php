@@ -20,13 +20,30 @@ class NewsScraper
     $allNews = $this->xpath->query("//article[@class='list-item --featured-small']");
     $newsImg = $this->xpath->query("//article[@class='list-item --featured-small']//div[@class='list-item__thumbnail']/a/img");
 
-    $news = array();
-    foreach ($allNews as $newsItem) {
-      $news["text"][] = trim($newsItem->textContent);
-    }
+    $news = array(); // Create an empty array to store news items
 
-    foreach ($newsImg as $img) {
-      $news["img"][] = trim($img->getAttribute('src'));
+    foreach ($allNews as $index => $newsItem) {
+      $img = $newsImg[$index];
+
+      // Get the text content and image src
+      $text = trim($newsItem->textContent);
+      $src = trim($img->getAttribute('src'));
+
+      // Use preg_replace to remove unnecessary parts from the text
+      $patterns = array(
+        "/\s+Nou\s+Justiție\s+/u", // Match "Nou Justiție" with surrounding whitespace
+        "/\s+\d+\s+zile în urmă$/u" // Match digits followed by "zile în urmă" with surrounding whitespace
+      );
+      $text = preg_replace($patterns, '', $text);
+
+      // Create a sub-array with image and text values
+      $newsItem = array(
+        'img' => trim($src),
+        'text' => trim($text)
+      );
+
+      // Add the sub-array to the $news array
+      $news[] = $newsItem;
     }
 
     return $news;

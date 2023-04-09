@@ -75,10 +75,10 @@ unset($_SESSION['isLogged'])
         <li><a class="nav-link active" href="#header">Acasă</a></li>
         <li><a class="nav-link" href="#about">Informații</a></li>
         <li><a class="nav-link" href="#services">Asistent virtual</a></li>
-        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-link" href="#contact">Tombola</a></li>
+        <li><a class="nav-link" href="#portfolio">Noutăți</a></li>
+        <li><a class="nav-link" href="#contact">Tombolă</a></li>
         <li><a class="nav-link" href="#posts">Posturi</a></li>
-        <li><a class="nav-link" href="#resume">Contact</a></li>
+        <li><a class="nav-link" href="#resume">Contacte</a></li>
         <li><a class="nav-link" href="#score">Puncte: <?php echo $points; ?></a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -134,7 +134,6 @@ unset($_SESSION['isLogged'])
 <!-- ======= Portfolio Section ======= -->
 <section id="portfolio" class="portfolio">
   <?php
-  require_once "pages/news.php";
   require_once "pages/portfolio.php";
   ?>
 </section><!-- End Portfolio Section -->
