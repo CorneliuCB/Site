@@ -1,7 +1,13 @@
 <?php
 require_once "../check-login/checkLogin.php";
-checkLogin::setIsLogged(true);
+session_start(); // Pornirea sesiunii
+
+checkLogin::setIsLogged(true); // Setarea $isLogged la true
+$_SESSION['isLogged'] = checkLogin::getIsLogged(); // Salvarea valorii $isLogged în sesiune
+var_dump($_SESSION['isLogged']); // Accesarea valorii $isLogged din sesiune
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">

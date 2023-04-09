@@ -1,7 +1,9 @@
 <?php
 require_once "check-login/checkLogin.php";
-var_dump(checkLogin::getIsLogged());
+session_start(); // Pornirea sesiunii
+var_dump($_SESSION['isLogged']); // Accesarea valorii $isLogged din sesiune
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,6 +63,7 @@ var_dump(checkLogin::getIsLogged());
         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
         <li><a class="nav-link" href="#score">Puncte: 0</a></li>
         <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-link" href="#news">Noutați</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -132,6 +135,12 @@ var_dump(checkLogin::getIsLogged());
 
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
+  <?php
+  require_once "pages/contact.php";
+  ?>
+</section><!-- End Contact Section -->
+
+<section id="news" class="news">
   <?php
   require_once "pages/contact.php";
   ?>

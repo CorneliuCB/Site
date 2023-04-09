@@ -1,8 +1,9 @@
 <?php
 
+
 class checkLogin
 {
-  public static $isLogged; // Declare the static property
+  private static $isLogged;
 
   public static function getIsLogged()
   {
@@ -14,7 +15,3 @@ class checkLogin
     self::$isLogged = $value;
   }
 }
-
-
-// Access the value of $isLogged property
-$isLoggedValue = checkLogin::getIsLogged(); // Returns true
