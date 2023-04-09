@@ -1,8 +1,3 @@
-<?php
-var_dump($a);
-?>
-
-
 <div class="container">
 
   <div class="section-title">
@@ -188,9 +183,7 @@ var_dump($a);
         ?>
 
         function logIn(d){
-          // Redirect to a PHP page
-          window.location.href = '../login-page/index.php';
-
+          window.open("login-page\\index.php", "_blank");
         }
 
 
