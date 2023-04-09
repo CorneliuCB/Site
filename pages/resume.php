@@ -183,7 +183,7 @@
         ?>
 
         function logIn(d){
-          window.open("login-page\\index.php", "_blank");
+          window.location.href = "login-page/index.php";
         }
 
 
