@@ -31,7 +31,7 @@
       <div class="info-box">
         <i class="bx bx-envelope"></i>
         <h3>Email</h3>
-        <p>ForceRM@example.com</p>
+        <p>ForceRM@best.com</p>
       </div>
     </div>
     <div class="col-md-6 mt-4 d-flex align-items-stretch">
@@ -59,9 +59,6 @@
       <textarea class="form-control" name="message" rows="5" placeholder="Mesajul" required></textarea>
     </div>
     <div class="my-3">
-      <div class="loading">Loading</div>
-      <div class="error-message"></div>
-      <div class="sent-message">Mesajul dumneazoastră a fost trimis. Vă mulțumim!</div>
     </div>
     <div class="text-center">
       <button type="submit">Trimite mesaj</button>

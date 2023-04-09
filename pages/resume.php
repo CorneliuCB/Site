@@ -7,7 +7,7 @@
 
   <div class="row">
     <div class="col-lg-6">
-      <h3 class="resume-title">Punctele dumneavoastră : 100</h3>
+      <h3 class="resume-title">Rotirea -> 10 puncte</h3>
       <div class="resume-item pb-0">
       </div>
       <html>

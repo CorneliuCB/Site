@@ -35,11 +35,11 @@
 </head>
 
 <body>
-    <div id="tars-fullpage-container" class="tars-fullpage-container-class">
-        <iframe id="tars-fullpage" frameborder="0" allow="geolocation; microphone; camera; midi; encrypted-media;"
+<div id="tars-fullpage-container" class="tars-fullpage-container-class">
+    <iframe id="tars-fullpage" frameborder="0" allow="geolocation; microphone; camera; midi; encrypted-media;"
             src="https://Colectare_Informatii.hellotars.com/conv/qhnqJc/"></iframe>
-        <script type="text/javascript" src="https://tars-file-upload.s3.amazonaws.com/bulb/js/fullpage.js"></script>
-    </div>
+    <script type="text/javascript" src="https://tars-file-upload.s3.amazonaws.com/bulb/js/fullpage.js"></script>
+</div>
 </body>
 
 </html>

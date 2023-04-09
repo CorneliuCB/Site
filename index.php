@@ -5,7 +5,11 @@ session_start();
 //var_dump($_SESSION['isLogged']);
 if(isset($_SESSION['isLogged']))
 $a = $_SESSION['isLogged'];
-unset($_SESSION['isLogged'])
+unset($_SESSION['isLogged']);
+
+if ($a)
+  $points = 9;
+
 ?>
 
 
@@ -77,7 +81,7 @@ unset($_SESSION['isLogged'])
         <li><a class="nav-link" href="#services">Asistent virtual</a></li>
         <li><a class="nav-link" href="#portfolio">Noutăți</a></li>
         <li><a class="nav-link" href="#contact">Tombolă</a></li>
-        <li><a class="nav-link" href="#posts">Posturi</a></li>
+<!--        <li><a class="nav-link" href="#posts">Posturi</a></li>-->
         <li><a class="nav-link" href="#resume">Contacte</a></li>
         <li><a class="nav-link" href="#score">Puncte: <?php echo $points; ?></a></li>
       </ul>
@@ -146,11 +150,11 @@ unset($_SESSION['isLogged'])
 </section><!-- End Contact Section -->
 
 <!-- ======= Resume Section ======= -->
-<section id="posts" class="posts">
-  <?php
-  require_once "pages/posts.php";
-  ?>
-</section><!-- End Resume Section -->
+<!--<section id="posts" class="posts">-->
+<!--  --><?php
+//  require_once "pages/posts.php";
+//  ?>
+<!--</section><!-- End Resume Section -->-->
 
 <!-- ======= Resume Section ======= -->
 <section id="resume" class="resume">
