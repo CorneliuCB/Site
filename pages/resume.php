@@ -182,7 +182,7 @@
         }
         ?>
 
-        function logIn(d){
+        function logIn(){
           window.location.href = "login-page/index.php";
         }
 
