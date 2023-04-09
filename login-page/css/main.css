@@ -162,28 +162,29 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #23334e;
 }
 
 .bg-red {
-  background: #fa4251;
+  background: #4e202d;
 }
 
 .bg-gra-01 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
-  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#683669), to(#342c22));
+  background: -webkit-linear-gradient(bottom, #5a2f5b 0%, #2c3641 100%);
+  background: -moz-linear-gradient(bottom, #5a2f5b 0%, #2c3641 100%);
+  background: -o-linear-gradient(bottom, #5a2f5b 0%, #2c3641 100%);
+  background: linear-gradient(to top, #5a2f5b 0%, #2c3641 100%);
 }
 
 .bg-gra-02 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background: -webkit-gradient(linear, left bottom, right top, from(#3b0e3a), to(#2a2c39));
+  background: -webkit-linear-gradient(bottom left, #3b0e3a 0%, #2a2c39 100%);
+  background: -moz-linear-gradient(bottom left, #3b0e3a 0%, #2a2c39 100%);
+  background: -o-linear-gradient(bottom left, #3b0e3a 0%, #2a2c39 100%);
+  background: linear-gradient(to top right, #3b0e3a 0%, #440026 100%);
 }
+
 
 /* ==========================================================================
    #SPACING

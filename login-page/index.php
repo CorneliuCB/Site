@@ -18,7 +18,7 @@ $_SESSION['isLogged'] = true;
   <meta name="keywords" content="Colorlib Templates">
 
   <!-- Title Page-->
-  <title>Au Register Forms by Colorlib</title>
+  <title>Sing Up</title>
 
   <!-- Icons font CSS-->
   <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -130,7 +130,7 @@ $_SESSION['isLogged'] = true;
 <!-- Main JS-->
 <script src="js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
 <!-- end document-->
