@@ -1,3 +1,8 @@
+<?php
+var_dump($a);
+?>
+
+
 <div class="container">
 
   <div class="section-title">
@@ -16,34 +21,37 @@
         <title>Wheel of Fortune Bingo</title>
 
         <style type="text/css">
-            text{
-                font-family:Helvetica, Arial, sans-serif;
-                font-size:11px;
-                pointer-events:none;
+            text {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 11px;
+                pointer-events: none;
             }
-            #chart{
-                width:500px;
-                height:500px;
-                top:0;
-                left:0;
+
+            #chart {
+                width: 500px;
+                height: 500px;
+                top: 0;
+                left: 0;
             }
-            #question{
+
+            #question {
                 position: absolute;
                 width: 400px;
                 height: 500px;
                 top: 350px;
                 right: 450px;
             }
+
             }
-            #question h1{
+            #question h1 {
                 font-size: 50px;
                 font-weight: bold;
                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
                 padding: 0;
                 margin: 0;
-                top:50%;
-                -webkit-transform:translate(0,-50%);
-                transform:translate(0,-50%);
+                top: 50%;
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
             }
         </style>
 
@@ -54,10 +62,10 @@
 
       <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
       <script type="text/javascript" charset="utf-8">
-        var padding = {top:20, right:40, bottom:0, left:0},
+        var padding = {top: 20, right: 40, bottom: 0, left: 0},
           w = 500 - padding.left - padding.right,
-          h = 500 - padding.top  - padding.bottom,
-          r = Math.min(w, h)/2,
+          h = 500 - padding.top - padding.bottom,
+          r = Math.min(w, h) / 2,
           rotation = 0,
           oldrotation = 0,
           picked = 100000,
@@ -65,53 +73,75 @@
           color = d3.scale.category20();
 
         var data = [
-          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, // padding
-          {"label":"Premiu",  "value":1,  "question":"Felicitări! Ați câștigat bilet la Teatrul Național"}, //font-family
-          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //color
-          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //font-weight
-          {"label":"SuperPremiu",  "value":1,  "question":"Felicitări!!! Ați câștigat căști Airpods"}, //font-size
-          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //background-color
-          {"label":"Premiu",  "value":1,  "question":"Felicitari! Ați câștigat bilet la oo excursie la Cricova"}, //nesting
-          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //bottom
-          {"label":"Premiu",  "value":1,  "question":"Felicitări! Ați câștigat 2 bilete la expoziția artistica din Rebublica Moldova"}, //sans-serif
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //period
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //pound sign
-          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat un abonament la Biblioteca Națională din Republica Moldova"}, //<body>
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //<ul>
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //<h1>
-          {"label":"SuperPremiu", "value":1, "question":"Felicitări!!! Ați câștigat un Iphone 14 Pro"}, //margin
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //< >
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // { }
-          {"label":"SuperMegaPremiu", "value":1, "question":"Felicitari! Ați câștigat o sticlă de cognac WOLFBURN"}, //<p>
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //<!DOCTYPE html>
-          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat bilet într-o excursie la Mănăstirea Hâncu"}, //<head>
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // colon
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // <style>
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // .html
-          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat abonament la cursurile ”O educație bună, o societate sănătoasă”"}, // HTML
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // CSS
-          {"label":"SuperPremiu", "value":1, "question":"Felicitări!!! ați câștigat Mackbook M2 Pro"}, // JavaScript
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // border
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"},//semi-colon
-          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat bilet la excursia de la Mănăstire Tipova"}, //100%
-          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"} //comma
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // padding
+          {"label": "Premiu", "value": 1, "question": "Felicitări! Ați câștigat bilet la Teatrul Național"}, //font-family
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //color
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //font-weight
+          {"label": "SuperPremiu", "value": 1, "question": "Felicitări!!! Ați câștigat căști Airpods"}, //font-size
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //background-color
+          {"label": "Premiu", "value": 1, "question": "Felicitari! Ați câștigat bilet la oo excursie la Cricova"}, //nesting
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //bottom
+          {
+            "label": "Premiu",
+            "value": 1,
+            "question": "Felicitări! Ați câștigat 2 bilete la expoziția artistica din Rebublica Moldova"
+          }, //sans-serif
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //period
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //pound sign
+          {
+            "label": "Premiu",
+            "value": 1,
+            "question": "Felicitari! Ați câștigat un abonament la Biblioteca Națională din Republica Moldova"
+          }, //<body>
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //<ul>
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //<h1>
+          {"label": "SuperPremiu", "value": 1, "question": "Felicitări!!! Ați câștigat un Iphone 14 Pro"}, //margin
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //< >
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // { }
+          {"label": "SuperMegaPremiu", "value": 1, "question": "Felicitari! Ați câștigat o sticlă de cognac WOLFBURN"}, //<p>
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, //<!DOCTYPE html>
+          {
+            "label": "Premiu",
+            "value": 1,
+            "question": "Felicitari! Ați câștigat bilet într-o excursie la Mănăstirea Hâncu"
+          }, //<head>
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // colon
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // <style>
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // .html
+          {
+            "label": "Premiu",
+            "value": 1,
+            "question": "Felicitari! Ați câștigat abonament la cursurile ”O educație bună, o societate sănătoasă”"
+          }, // HTML
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // CSS
+          {"label": "SuperPremiu", "value": 1, "question": "Felicitări!!! ați câștigat Mackbook M2 Pro"}, // JavaScript
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"}, // border
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"},//semi-colon
+          {
+            "label": "Premiu",
+            "value": 1,
+            "question": "Felicitari! Ați câștigat bilet la excursia de la Mănăstire Tipova"
+          }, //100%
+          {"label": "Mai încearcă", "value": 1, "question": "Mai încearcă"} //comma
         ];
 
 
         var svg = d3.select('#chart')
           .append("svg")
           .data([data])
-          .attr("width",  w + padding.left + padding.right)
+          .attr("width", w + padding.left + padding.right)
           .attr("height", h + padding.top + padding.bottom);
 
         var container = svg.append("g")
           .attr("class", "chartholder")
-          .attr("transform", "translate(" + (w/2 + padding.left) + "," + (h/2 + padding.top) + ")");
+          .attr("transform", "translate(" + (w / 2 + padding.left) + "," + (h / 2 + padding.top) + ")");
 
         var vis = container
           .append("g");
 
-        var pie = d3.layout.pie().sort(null).value(function(d){return 1;});
+        var pie = d3.layout.pie().sort(null).value(function (d) {
+          return 1;
+        });
 
         // declare an arc generator function
         var arc = d3.svg.arc().outerRadius(r);
@@ -125,59 +155,81 @@
 
 
         arcs.append("path")
-          .attr("fill", function(d, i){ return color(i); })
-          .attr("d", function (d) { return arc(d); });
+          .attr("fill", function (d, i) {
+            return color(i);
+          })
+          .attr("d", function (d) {
+            return arc(d);
+          });
 
         // add the text
-        arcs.append("text").attr("transform", function(d){
+        arcs.append("text").attr("transform", function (d) {
           d.innerRadius = 0;
           d.outerRadius = r;
-          d.angle = (d.startAngle + d.endAngle)/2;
-          return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius -10) +")";
+          d.angle = (d.startAngle + d.endAngle) / 2;
+          return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius - 10) + ")";
         })
           .attr("text-anchor", "end")
-          .text( function(d, i) {
+          .text(function (d, i) {
             return data[i].label;
           });
 
+        <?php
+        if($a){
+        ?>
         container.on("click", spin);
+        <?php
+        }
+        else{
+        ?>
+        container.on("click", logIn);
+        <?php
+        }
+        ?>
+
+        function logIn(d){
+          // Redirect to a PHP page
+          window.location.href = '../login-page/index.php';
+
+        }
 
 
-        function spin(d){
+
+        function spin(d) {
 
           container.on("click", null);
 
           //all slices have been seen, all done
           console.log("OldPick: " + oldpick.length, "Data length: " + data.length);
-          if(oldpick.length == data.length){
+          if (oldpick.length == data.length) {
             console.log("done");
             container.on("click", null);
             return;
           }
 
-          var  ps       = 360/data.length,
-            pieslice = Math.round(1440/data.length),
-            rng      = Math.floor((Math.random() * 1440) + 360);
+          var ps = 360 / data.length,
+            pieslice = Math.round(1440 / data.length),
+            rng = Math.floor((Math.random() * 1440) + 360);
 
           rotation = (Math.round(rng / ps) * ps);
 
-          picked = Math.round(data.length - (rotation % 360)/ps);
+          picked = Math.round(data.length - (rotation % 360) / ps);
           picked = picked >= data.length ? (picked % data.length) : picked;
 
 
-          if(oldpick.indexOf(picked) !== -1){
+          if (oldpick.indexOf(picked) !== -1) {
             d3.select(this).call(spin);
             return;
           } else {
             oldpick.push(picked);
           }
 
-          rotation += 90 - Math.round(ps/2);
+          rotation += 90 - Math.round(ps / 2);
 
           vis.transition()
             .duration(3000)
             .attrTween("transform", rotTween)
-            .each("end", function(){
+            .each("end", function () {
 
               //mark question as seen
               d3.select(".slice:nth-child(" + (picked + 1) + ") path")
@@ -195,45 +247,61 @@
 
         //make arrow
         svg.append("g")
-          .attr("transform", "translate(" + (w + padding.left + padding.right) + "," + ((h/2)+padding.top) + ")")
+          .attr("transform", "translate(" + (w + padding.left + padding.right) + "," + ((h / 2) + padding.top) + ")")
           .append("path")
-          .attr("d", "M-" + (r*.15) + ",0L0," + (r*.05) + "L0,-" + (r*.05) + "Z")
-          .style({"fill":"black"});
+          .attr("d", "M-" + (r * .15) + ",0L0," + (r * .05) + "L0,-" + (r * .05) + "Z")
+          .style({"fill": "black"});
 
         //draw spin circle
         container.append("circle")
           .attr("cx", 0)
           .attr("cy", 0)
           .attr("r", 60)
-          .style({"fill":"white","cursor":"pointer"});
+          .style({"fill": "white", "cursor": "pointer"});
 
         //spin text
+        <?php
+        if ($a){
+        ?>
         container.append("text")
           .attr("x", 0)
           .attr("y", 15)
           .attr("text-anchor", "middle")
           .text("SPIN")
-          .style({"font-weight":"bold", "font-size":"30px"});
+          .style({"font-weight": "bold", "font-size": "30px"});
+        <?php
+        }
+        else{
 
+        ?>
+        container.append("text")
+          .attr("x", 0)
+          .attr("y", 5)
+          .attr("text-anchor", "middle")
+          .text("Log in please")
+          .style({"font-weight": "bold", "font-size": "15px"});
+        <?php
+        }
+        ?>
 
         function rotTween(to) {
           var i = d3.interpolate(oldrotation % 360, rotation);
-          return function(t) {
+          return function (t) {
             return "rotate(" + i(t) + ")";
           };
         }
 
 
-        function getRandomNumbers(){
+        function getRandomNumbers() {
           var array = new Uint16Array(1000);
           var scale = d3.scale.linear().range([360, 1440]).domain([0, 100000]);
 
-          if(window.hasOwnProperty("crypto") && typeof window.crypto.getRandomValues === "function"){
+          if (window.hasOwnProperty("crypto") && typeof window.crypto.getRandomValues === "function") {
             window.crypto.getRandomValues(array);
             console.log("works");
           } else {
             //no support for crypto, get crappy random numbers
-            for(var i=0; i < 1000; i++){
+            for (var i = 0; i < 1000; i++) {
               array[i] = Math.floor(Math.random() * 100000) + 1;
             }
           }

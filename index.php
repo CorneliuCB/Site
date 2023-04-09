@@ -1,6 +1,9 @@
 <?php
+global $a;
 session_start();
 //var_dump($_SESSION['isLogged']);
+if(isset($_SESSION['isLogged']))
+$a = $_SESSION['isLogged'];
 unset($_SESSION['isLogged'])
 ?>
 
