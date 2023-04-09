@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="226e4a76-97ab-4d0f-af4e-c30ce46bdde6" name="Changes" comment="&quot;fix: login&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resume.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/vladc/OneDrive/Рабочий стол/Hakum-site/pages",
+    "last_opened_file_path": "C:/Users/vladc/OneDrive/Рабочий стол/Hakum-site/login-page",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vladc\OneDrive\Рабочий стол\Hakum-site\login-page" />
       <recent name="C:\Users\vladc\OneDrive\Рабочий стол\Hakum-site\pages" />
       <recent name="C:\Users\vladc\OneDrive\Рабочий стол\Hakum-site\assets\img" />
     </key>
@@ -62,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680942284521</updated>
       <workItem from="1680942286228" duration="5431000" />
-      <workItem from="1680967882524" duration="31676000" />
+      <workItem from="1680967882524" duration="35886000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;site created&quot;">
       <created>1680949482592</created>

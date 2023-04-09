@@ -231,7 +231,6 @@
               //populate question
               d3.select("#question h1")
                 .text(data[picked].question);
-
               oldrotation = rotation;
 
               container.on("click", spin);

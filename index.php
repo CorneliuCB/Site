@@ -1,5 +1,6 @@
 <?php
-global $a;
+global $a, $points;
+$points = 0;
 session_start();
 //var_dump($_SESSION['isLogged']);
 if(isset($_SESSION['isLogged']))
@@ -56,6 +57,18 @@ unset($_SESSION['isLogged'])
       <p id="demo" class="demo"></p>
 
     </div>
+    <script>(function () {
+        var js, fs, d = document, id = "tars-widget-script", b = "https://tars-file-upload.s3.amazonaws.com/bulb/";
+        if (!d.getElementById(id)) {
+          js = d.createElement("script");
+          js.id = id;
+          js.type = "text/javascript";
+          js.src = b + "js/widget.js";
+          fs = d.getElementsByTagName("script")[0];
+          fs.parentNode.insertBefore(js, fs)
+        }
+      })();
+      window.tarsSettings = {"convid": "xoyInS"};</script>
 
     <nav id="navbar" class="navbar">
       <ul>
@@ -64,8 +77,8 @@ unset($_SESSION['isLogged'])
         <li><a class="nav-link" href="#resume">Contact</a></li>
         <li><a class="nav-link" href="#services">Asistent virtual</a></li>
         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-link" href="#score">Puncte: 0</a></li>
         <li><a class="nav-link" href="#contact">Tombola</a></li>
+        <li><a class="nav-link" href="#score">Puncte: <?php echo $points; ?></a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -103,7 +116,7 @@ unset($_SESSION['isLogged'])
 
   <!-- ======= About Me ======= -->
   <?php
-  require_once "pages/about.php";
+  require_once "pages/score.php";
   ?>
 
 </section><!-- End About Section -->
@@ -129,13 +142,6 @@ unset($_SESSION['isLogged'])
   ?>
 </section><!-- End Portfolio Section -->
 
-<!-- ======= Score ======= -->
-<section id="score" class="score">
-  <?php
-  require_once "pages/score.php";
-  ?>
-</section><!-- Score -->
-
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
   <?php
@@ -143,6 +149,12 @@ unset($_SESSION['isLogged'])
   ?>
 </section><!-- End Contact Section -->
 
+<!-- ======= Score ======= -->
+<section id="score" class="score">
+  <?php
+  require_once "pages/about.php";
+  ?>
+</section><!-- Score -->
 
 <div class="credits"></div>
 
