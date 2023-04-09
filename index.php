@@ -58,11 +58,11 @@ unset($_SESSION['isLogged'])
       <ul>
         <li><a class="nav-link active" href="#header">Acasă</a></li>
         <li><a class="nav-link" href="#about">Informații</a></li>
-        <li><a class="nav-link" href="#resume">Resume</a></li>
+        <li><a class="nav-link" href="#resume">Contact</a></li>
         <li><a class="nav-link" href="#services">Asistent virtual</a></li>
         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
         <li><a class="nav-link" href="#score">Puncte: 0</a></li>
-        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-link" href="#contact">Tombola</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -108,7 +108,7 @@ unset($_SESSION['isLogged'])
 <!-- ======= Resume Section ======= -->
 <section id="resume" class="resume">
   <?php
-  require_once "pages/resume.php";
+  require_once "pages/contact.php";
   ?>
 </section><!-- End Resume Section -->
 
@@ -136,7 +136,7 @@ unset($_SESSION['isLogged'])
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
   <?php
-  require_once "pages/contact.php";
+  require_once "pages/resume.php";
   ?>
 </section><!-- End Contact Section -->
 

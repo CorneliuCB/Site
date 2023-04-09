@@ -1,68 +1,246 @@
 <div class="container">
 
   <div class="section-title">
-    <h2>Resume</h2>
-    <p>Check My Resume</p>
+    <h2>Castigă cu noi</h2>
+    <p>Acumulați puncte și primește șansa de a câștica top premii</p>
   </div>
 
   <div class="row">
     <div class="col-lg-6">
-      <h3 class="resume-title">Sumary</h3>
+      <h3 class="resume-title">Punctele dumneavoastră : 100</h3>
       <div class="resume-item pb-0">
-        <h4>Alice Barkley</h4>
-        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-        <p>
-        <ul>
-          <li>Portland par 127,Orlando, FL</li>
-          <li>(123) 456-7891</li>
-          <li>alice.barkley@example.com</li>
-        </ul>
-        </p>
       </div>
+      <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Wheel of Fortune Bingo</title>
 
-      <h3 class="resume-title">Education</h3>
-      <div class="resume-item">
-        <h4>Master of Fine Arts &amp; Graphic Design</h4>
-        <h5>2015 - 2016</h5>
-        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-      </div>
-      <div class="resume-item">
-        <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-        <h5>2010 - 2014</h5>
-        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <h3 class="resume-title">Professional Experience</h3>
-      <div class="resume-item">
-        <h4>Senior graphic design specialist</h4>
-        <h5>2019 - Present</h5>
-        <p><em>Experion, New York, NY </em></p>
-        <p>
-        <ul>
-          <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-          <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-          <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-          <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-        </ul>
-        </p>
-      </div>
-      <div class="resume-item">
-        <h4>Graphic design specialist</h4>
-        <h5>2017 - 2018</h5>
-        <p><em>Stepping Stone Advertising, New York, NY</em></p>
-        <p>
-        <ul>
-          <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-          <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-          <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-          <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-        </ul>
-        </p>
-      </div>
-    </div>
-  </div>
+        <style type="text/css">
+            text{
+                font-family:Helvetica, Arial, sans-serif;
+                font-size:11px;
+                pointer-events:none;
+            }
+            #chart{
+                width:500px;
+                height:500px;
+                top:0;
+                left:0;
+            }
+            #question{
+                position: absolute;
+                width: 400px;
+                height: 500px;
+                top: 350px;
+                right: 450px;
+            }
+            }
+            #question h1{
+                font-size: 50px;
+                font-weight: bold;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                padding: 0;
+                margin: 0;
+                top:50%;
+                -webkit-transform:translate(0,-50%);
+                transform:translate(0,-50%);
+            }
+        </style>
 
-</div>
+      </head>
+      <body>
+      <div id="chart"></div>
+      <div id="question"><h1></h1></div>
+
+      <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+      <script type="text/javascript" charset="utf-8">
+        var padding = {top:20, right:40, bottom:0, left:0},
+          w = 500 - padding.left - padding.right,
+          h = 500 - padding.top  - padding.bottom,
+          r = Math.min(w, h)/2,
+          rotation = 0,
+          oldrotation = 0,
+          picked = 100000,
+          oldpick = [],
+          color = d3.scale.category20();
+
+        var data = [
+          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, // padding
+          {"label":"Premiu",  "value":1,  "question":"Felicitări! Ați câștigat bilet la Teatrul Național"}, //font-family
+          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //color
+          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //font-weight
+          {"label":"SuperPremiu",  "value":1,  "question":"Felicitări!!! Ați câștigat căști Airpods"}, //font-size
+          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //background-color
+          {"label":"Premiu",  "value":1,  "question":"Felicitari! Ați câștigat bilet la oo excursie la Cricova"}, //nesting
+          {"label":"Mai încearcă",  "value":1,  "question":"Mai încearcă"}, //bottom
+          {"label":"Premiu",  "value":1,  "question":"Felicitări! Ați câștigat 2 bilete la expoziția artistica din Rebublica Moldova"}, //sans-serif
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //period
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //pound sign
+          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat un abonament la Biblioteca Națională din Republica Moldova"}, //<body>
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //<ul>
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //<h1>
+          {"label":"SuperPremiu", "value":1, "question":"Felicitări!!! Ați câștigat un Iphone 14 Pro"}, //margin
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //< >
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // { }
+          {"label":"SuperMegaPremiu", "value":1, "question":"Felicitari! Ați câștigat o sticlă de cognac WOLFBURN"}, //<p>
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, //<!DOCTYPE html>
+          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat bilet într-o excursie la Mănăstirea Hâncu"}, //<head>
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // colon
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // <style>
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // .html
+          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat abonament la cursurile ”O educație bună, o societate sănătoasă”"}, // HTML
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // CSS
+          {"label":"SuperPremiu", "value":1, "question":"Felicitări!!! ați câștigat Mackbook M2 Pro"}, // JavaScript
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"}, // border
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"},//semi-colon
+          {"label":"Premiu", "value":1, "question":"Felicitari! Ați câștigat bilet la excursia de la Mănăstire Tipova"}, //100%
+          {"label":"Mai încearcă", "value":1, "question":"Mai încearcă"} //comma
+        ];
+
+
+        var svg = d3.select('#chart')
+          .append("svg")
+          .data([data])
+          .attr("width",  w + padding.left + padding.right)
+          .attr("height", h + padding.top + padding.bottom);
+
+        var container = svg.append("g")
+          .attr("class", "chartholder")
+          .attr("transform", "translate(" + (w/2 + padding.left) + "," + (h/2 + padding.top) + ")");
+
+        var vis = container
+          .append("g");
+
+        var pie = d3.layout.pie().sort(null).value(function(d){return 1;});
+
+        // declare an arc generator function
+        var arc = d3.svg.arc().outerRadius(r);
+
+        // select paths, use arc generator to draw
+        var arcs = vis.selectAll("g.slice")
+          .data(pie)
+          .enter()
+          .append("g")
+          .attr("class", "slice");
+
+
+        arcs.append("path")
+          .attr("fill", function(d, i){ return color(i); })
+          .attr("d", function (d) { return arc(d); });
+
+        // add the text
+        arcs.append("text").attr("transform", function(d){
+          d.innerRadius = 0;
+          d.outerRadius = r;
+          d.angle = (d.startAngle + d.endAngle)/2;
+          return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius -10) +")";
+        })
+          .attr("text-anchor", "end")
+          .text( function(d, i) {
+            return data[i].label;
+          });
+
+        container.on("click", spin);
+
+
+        function spin(d){
+
+          container.on("click", null);
+
+          //all slices have been seen, all done
+          console.log("OldPick: " + oldpick.length, "Data length: " + data.length);
+          if(oldpick.length == data.length){
+            console.log("done");
+            container.on("click", null);
+            return;
+          }
+
+          var  ps       = 360/data.length,
+            pieslice = Math.round(1440/data.length),
+            rng      = Math.floor((Math.random() * 1440) + 360);
+
+          rotation = (Math.round(rng / ps) * ps);
+
+          picked = Math.round(data.length - (rotation % 360)/ps);
+          picked = picked >= data.length ? (picked % data.length) : picked;
+
+
+          if(oldpick.indexOf(picked) !== -1){
+            d3.select(this).call(spin);
+            return;
+          } else {
+            oldpick.push(picked);
+          }
+
+          rotation += 90 - Math.round(ps/2);
+
+          vis.transition()
+            .duration(3000)
+            .attrTween("transform", rotTween)
+            .each("end", function(){
+
+              //mark question as seen
+              d3.select(".slice:nth-child(" + (picked + 1) + ") path")
+                .attr("fill", "#111");
+
+              //populate question
+              d3.select("#question h1")
+                .text(data[picked].question);
+
+              oldrotation = rotation;
+
+              container.on("click", spin);
+            });
+        }
+
+        //make arrow
+        svg.append("g")
+          .attr("transform", "translate(" + (w + padding.left + padding.right) + "," + ((h/2)+padding.top) + ")")
+          .append("path")
+          .attr("d", "M-" + (r*.15) + ",0L0," + (r*.05) + "L0,-" + (r*.05) + "Z")
+          .style({"fill":"black"});
+
+        //draw spin circle
+        container.append("circle")
+          .attr("cx", 0)
+          .attr("cy", 0)
+          .attr("r", 60)
+          .style({"fill":"white","cursor":"pointer"});
+
+        //spin text
+        container.append("text")
+          .attr("x", 0)
+          .attr("y", 15)
+          .attr("text-anchor", "middle")
+          .text("SPIN")
+          .style({"font-weight":"bold", "font-size":"30px"});
+
+
+        function rotTween(to) {
+          var i = d3.interpolate(oldrotation % 360, rotation);
+          return function(t) {
+            return "rotate(" + i(t) + ")";
+          };
+        }
+
+
+        function getRandomNumbers(){
+          var array = new Uint16Array(1000);
+          var scale = d3.scale.linear().range([360, 1440]).domain([0, 100000]);
+
+          if(window.hasOwnProperty("crypto") && typeof window.crypto.getRandomValues === "function"){
+            window.crypto.getRandomValues(array);
+            console.log("works");
+          } else {
+            //no support for crypto, get crappy random numbers
+            for(var i=0; i < 1000; i++){
+              array[i] = Math.floor(Math.random() * 100000) + 1;
+            }
+          }
+
+          return array;
+        }
+
+      </script>
+      </body>
+      </html>
