@@ -59,7 +59,7 @@ unset($_SESSION['isLogged'])
         <li><a class="nav-link active" href="#header">Acasă</a></li>
         <li><a class="nav-link" href="#about">Informații</a></li>
         <li><a class="nav-link" href="#resume">Resume</a></li>
-        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#services">Asistent virtual</a></li>
         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
         <li><a class="nav-link" href="#score">Puncte: 0</a></li>
         <li><a class="nav-link" href="#contact">Contact</a></li>
