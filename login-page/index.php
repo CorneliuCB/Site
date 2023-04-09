@@ -1,10 +1,18 @@
+<?php
+require_once "../check-login/checkLogin.php";
+session_start(); // Pornirea sesiunii
+
+checkLogin::setIsLogged(true); // Setarea $isLogged la true
+$_SESSION['isLogged'] = checkLogin::getIsLogged(); // Salvarea valorii $isLogged în sesiune
+var_dump($_SESSION['isLogged']); // Accesarea valorii $isLogged din sesiune
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <?php
-  $_SESSION['islogged'] = true;
-  ?>
   <!-- Required meta tags-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -37,8 +45,8 @@
     <div class="card card-4">
       <div class="card-body">
         <h2 class="title">Registration Form</h2>
-        <form method="POST">
-          <div class="row row-space">
+        <form method="POST" action="../index.php">
+        <div class="row row-space">
             <div class="col-2">
               <div class="input-group">
                 <label class="label">Nume</label>

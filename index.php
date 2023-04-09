@@ -1,10 +1,14 @@
+<?php
+require_once "check-login/checkLogin.php";
+session_start(); // Pornirea sesiunii
+var_dump($_SESSION['isLogged']); // Accesarea valorii $isLogged din sesiune
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <?php
-  $_SESSION['islogged'] = false;
-  ?>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -97,13 +101,6 @@
   <?php
   require_once "pages/about.php";
   ?>
-  <?php
-  if ($_SESSION['islogged']) {
-    // Display content for logged-in users
-  } else {
-    // Display content for non-logged-in users
-  }
-  ?>
 
 </section><!-- End About Section -->
 
@@ -141,6 +138,7 @@
   require_once "pages/contact.php";
   ?>
 </section><!-- End Contact Section -->
+
 
 <div class="credits"></div>
 
